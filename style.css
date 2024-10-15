@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.top {
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    text-align: center;
+    line-height: 5rem;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.playArea {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.choices {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.choices:hover {
+    background-color: #000;
+}
+
+.choices h1 {
+    width: 140px;
+    height: 140px;
+    background-color: #812e7a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.btm {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scoreBoard {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+    padding-block: 5rem;
+}
+
+.userScore, .compScore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userScore p, .compScore p {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.msgBox {
+    
+    text-align: center;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    
+}
+
+.msgBox p {
+    display: inline;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    color: aliceblue;
+    width: fit-content;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+}
